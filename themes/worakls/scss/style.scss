@@ -1,0 +1,142 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'init';
+
+body {
+  // background-color: $background-color;
+  background: linear-gradient(to bottom, #3d5a80, #023) !important;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  // color: $font-color;
+}
+
+ol, ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  width: 50%;
+  margin: auto;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+  width: 70%;
+  margin: auto;
+}
+
+/* Header */
+
+.header, .site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Title */
+
+.title, .logo {
+  padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+  .title, .logo {
+      padding: 1em 1em 1em 0;
+  }
+  .title {
+      min-width: 50%;
+  }
+  .logo {
+      max-width: 30%;
+  }
+}
+
+.title * {
+  color: #111;
+}
+
+.title p {
+  font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $font-alternative-color;
+}
+
+.footer p {
+  color: $font-alternative-color;
+}
+
+.footer a {
+  color: $font-alternative-color;
+}
+
+.footer .social {
+  font-size: 2rem;
+  
+}
+
+/* Typografy */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  // line-height: 1.4rem;
+}
+
+p {
+  font-size: 1.25em;
+  margin-bottom: 1.75rem;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+p, td, th, li, dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1 {
+  font-size: 2.8em;
+  // margin-bottom: 3.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}

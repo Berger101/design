@@ -30,10 +30,14 @@ body {
 
 .main {
     flex: 1 0 auto;
+    width: 50%;
+    margin: auto;
 }
 
 .header, .footer {
     flex: 0 0 auto;
+    width: 70%;
+    margin: auto;
 }
 
 /* Header */
@@ -88,15 +92,25 @@ body {
 /* Typografy */
 
 body {
-    font-family: sans-serif;
-    line-height: 1.5rem;
-    color: #444;
+    font-family: sans-serif, garamond;
+    line-height: 1.4rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom: 1.75rem;
 }
 
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 3.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
