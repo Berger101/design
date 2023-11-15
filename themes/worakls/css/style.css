@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -396,11 +397,6 @@ pre code {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
-  }
-}
-@media (max-width: 980px) {
-  body {
-    background: linear-gradient(to bottom, #3d5a80, #023);
   }
 }
 /**
