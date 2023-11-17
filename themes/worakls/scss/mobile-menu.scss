@@ -72,3 +72,16 @@
 //   }
 // }
 
+// Technology
+@media (max-width: 762px) {
+  .box {
+    display: grid;
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 530px) {
+  .sidebar {
+    display: none;
+  }
+}

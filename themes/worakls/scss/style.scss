@@ -10,6 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import 'technology';
 
 body {
   // background-color: $background-color;
@@ -45,8 +46,19 @@ body {
 
 .main {
   flex: 1 0 auto;
-  width: 50%;
+  width: 70%;
   margin: auto;
+}
+
+.main p {
+  width: 70%;
+  margin: 0 auto;
+  // margin-bottom: 1em;
+}
+
+.main h1 {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .header, .footer {
@@ -94,6 +106,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid $font-alternative-color;
+  margin-top: 0.5em;
 }
 
 .footer p {

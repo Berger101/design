@@ -399,6 +399,17 @@ pre code {
     cursor: pointer;
   }
 }
+@media (max-width: 762px) {
+  .box {
+    display: grid;
+    grid-column: span 3;
+  }
+}
+@media (max-width: 530px) {
+  .sidebar {
+    display: none;
+  }
+}
 /**
  * Initiate the CSS base and reset/normalize some items.
  */
@@ -6545,6 +6556,63 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* technology.scss */
+.technology {
+  flex: 1 0 auto;
+  width: 70%;
+  margin: auto;
+}
+
+.landingpage {
+  width: 70%;
+  margin: auto;
+  display: grid;
+}
+
+.technologiesH1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.box {
+  border: solid 1px black;
+}
+
+.wide {
+  display: grid;
+  grid-column: span 3;
+}
+
+.box a {
+  color: #000;
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+}
+
+.sidebar {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* width: 200px; */
+  position: fixed;
+  /* height: 100%; */
+  overflow: auto;
+  left: 75%;
+  margin-top: 4em;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
 body {
   background: linear-gradient(to bottom, #3d5a80, #023) !important;
 }
@@ -6576,8 +6644,18 @@ body {
 
 .main {
   flex: 1 0 auto;
-  width: 50%;
+  width: 70%;
   margin: auto;
+}
+
+.main p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main h1 {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .header, .footer {
@@ -6621,6 +6699,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #fff;
+  margin-top: 0.5em;
 }
 
 .footer p {
