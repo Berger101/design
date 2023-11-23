@@ -402,12 +402,15 @@ pre code {
 @media (max-width: 762px) {
   .box {
     display: grid;
-    grid-column: span 3;
+    grid-column: span 3 !important;
   }
 }
 @media (max-width: 530px) {
+  .singleTech {
+    display: block !important;
+  }
   .sidebar {
-    display: none;
+    display: none !important;
   }
 }
 /**
@@ -6567,6 +6570,7 @@ readers do not read off random characters that represent icons */
   width: 70%;
   margin: auto;
   display: grid;
+  gap: 1em 1em;
 }
 
 .technologiesH1 {
@@ -6574,17 +6578,15 @@ readers do not read off random characters that represent icons */
   justify-self: center;
 }
 
-.landingpage {
-  display: grid;
-  gap: 1em 1em;
-}
-
 .box {
   border: solid 1px black;
 }
 
+.half {
+  grid-column: span 2;
+}
+
 .wide {
-  display: grid;
   grid-column: span 3;
 }
 
@@ -6595,21 +6597,19 @@ readers do not read off random characters that represent icons */
   text-align: center;
 }
 
+.singleTech {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
 .sidebar {
-  /* margin: 0; */
-  /* padding: 0; */
-  /* width: 200px; */
-  position: fixed;
-  /* height: 100%; */
-  overflow: auto;
-  left: 75%;
-  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar a {
-  display: block;
+  margin: 0.5em 0;
   color: black;
-  padding: 16px;
   text-decoration: none;
 }
 

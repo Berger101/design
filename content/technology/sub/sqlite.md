@@ -5,6 +5,7 @@ Template: technologies
 ---
 
 # SQLite
+<div class="singleTech">
 
 <div class="sidebar">
   <a href="html">HTML</a>
@@ -16,4 +17,7 @@ Template: technologies
   <a href="git">GIT</a>
 </div>
 
+<p>
 SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.
+</p>
+</div>

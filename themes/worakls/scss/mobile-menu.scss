@@ -76,12 +76,15 @@
 @media (max-width: 762px) {
   .box {
     display: grid;
-    grid-column: span 3;
+    grid-column: span 3 !important;
   }
 }
 
 @media (max-width: 530px) {
+  .singleTech {
+    display: block !important;
+  }
   .sidebar {
-    display: none;
+    display: none !important;
   }
 }

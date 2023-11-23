@@ -21,12 +21,12 @@ Template: technologies
 <a href="technology/sub/php">PHP</a>
 </div>
 
-<div class="box">
-<a href="technology/sub/sqlite">SQLITE</a>
+<div class="box half">
+<a href="technology/sub/python">PYTHON</a>
 </div>
 
-<div class="box">
-<a href="technology/sub/python">PYTHON</a>
+<div class="box wide">
+<a href="technology/sub/sqlite">SQLITE</a>
 </div>
 
 <div class="box wide">
