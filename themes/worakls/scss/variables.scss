@@ -1,5 +1,9 @@
 $font-color: #000;
 $font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #3d5a80;
-$background-alternative-color: #e0fbfc;
+$font-alternative-light-color: #800080;
+// $accent-color: #ee6c4d;
+// $background-color: #3d5a80;
+// $background-alternative-color: #e0fbfc;
+$font-color-title: #111;
+$background-dark-theme: linear-gradient(to bottom, #3d5a80, #023) !important;
+$background-light-theme: linear-gradient(89.9deg, rgba(178, 253, 238, 0.96) -8.1%, rgb(207, 244, 254) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgb(254, 219, 243) 78.7%, rgb(254, 207, 210) 109.2%) !important;

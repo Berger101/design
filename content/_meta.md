@@ -8,4 +8,10 @@ Social:
     - title: Link till min linkedin sida.
       url: https://linkedin.com
       icon: fab fa-linkedin
+    - title: Switch light/dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

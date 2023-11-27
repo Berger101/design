@@ -14,7 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 body {
   // background-color: $background-color;
-  background: $background-dark-theme;
+  //background: linear-gradient(to bottom, #3d5a80, #023) !important;
 }
 
 * {
@@ -74,11 +74,6 @@ body {
   justify-content: space-between;
 }
 
-.nav a, .nav-toggle {
-  color: $font-alternative-color;
-  font-size: 1.2em;
-}
-
 /* Title */
 
 .title, .logo {
@@ -98,7 +93,7 @@ body {
 }
 
 .title * {
-  color: $font-color-title;
+  color: #111;
 }
 
 .title p {
@@ -110,16 +105,16 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid $font-alternative-color;
+  border-top: 1px solid $font-alternative-light-color !important;
   margin-top: 0.5em;
 }
 
 .footer p {
-  color: $font-alternative-color;
+  color: $font-alternative-light-color !important;
 }
 
 .footer a {
-  color: $font-alternative-color;
+  color: $font-alternative-light-color !important;
 }
 
 .footer .social {
@@ -166,3 +161,11 @@ h1, h2, h3, h4, h5, h6 {
 img {
   max-width: 100%;
 }
+
+// Light Mode Activation!
+body {
+  background: $background-light-theme;
+}
+
+// "style": "sass worakls/scss/style.scss worakls/css/style.css --no-source-map",
+// "style-min": "sass worakls/scss/style.scss worakls/css/style.min.css --no-source-map --style compressed",

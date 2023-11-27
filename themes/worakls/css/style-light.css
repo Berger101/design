@@ -359,6 +359,11 @@ pre code {
   padding: 0 1em;
 }
 
+.nav a, .nav-toggle {
+  color: #fff;
+  font-size: 1.2em;
+}
+
 .nav-toggle {
   display: none;
 }
@@ -6608,10 +6613,6 @@ readers do not read off random characters that represent icons */
   text-decoration: none;
 }
 
-body {
-  background: linear-gradient(to bottom, #3d5a80, #023) !important;
-}
-
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6663,11 +6664,6 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-}
-
-.nav a, .nav-toggle {
-  color: #fff;
-  font-size: 1.2em;
 }
 
 /* Title */
@@ -6747,4 +6743,8 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   max-width: 100%;
+}
+
+body {
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
 }

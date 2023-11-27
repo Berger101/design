@@ -9,8 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass worakls/scss/style.scss worakls/css/style.css --no-source-map",
-    "style-min": "sass worakls/scss/style.scss worakls/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass worakls/scss/style.scss:worakls/css/style.css worakls/scss/style-light.scss:worakls/css/style-light.css --no-source-map --watch",
+    "watch-min": "sass worakls/scss/style.scss:worakls/css/style.min.css worakls/scss/style-light.scss:worakls/css/style-light.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-light",
+    "style-min": "npm run style-light-min && npm run style-light-min",
+    "style-light": "sass worakls/scss/style-light.scss worakls/css/style-light.css --no-source-map",
+    "style-light-min": "sass worakls/scss/style-light.scss worakls/css/style-light.min.css --no-source-map --style compressed",
+    "style-light": "sass worakls/scss/style.scss worakls/css/style.css --no-source-map",
+    "style-light-min": "sass worakls/scss/style.scss worakls/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
