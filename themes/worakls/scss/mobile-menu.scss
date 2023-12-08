@@ -23,7 +23,7 @@
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header {
       flex-direction: column;
   }
@@ -73,18 +73,30 @@
 // }
 
 // Technology
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .box {
     display: grid;
     grid-column: span 3 !important;
   }
 }
 
-@media (max-width: 530px) {
+/* Media query: tablets and larger (768px and down) */
+@media (max-width: 768px) {
   .singleTech {
     display: block !important;
   }
   .sidebar {
     display: none !important;
+  }
+}
+
+/* Media query: tablets and larger (576px and down) */
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 1em !important;
+  }
+
+  h1 {
+    font-size: 1.5em !important;
   }
 }

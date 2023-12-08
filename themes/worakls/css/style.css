@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -363,7 +364,7 @@ pre code {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header {
     flex-direction: column;
   }
@@ -394,18 +395,28 @@ pre code {
     cursor: pointer;
   }
 }
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .box {
     display: grid;
     grid-column: span 3 !important;
   }
 }
-@media (max-width: 530px) {
+/* Media query: tablets and larger (768px and down) */
+@media (max-width: 768px) {
   .singleTech {
     display: block !important;
   }
   .sidebar {
     display: none !important;
+  }
+}
+/* Media query: tablets and larger (576px and down) */
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 1em !important;
+  }
+  h1 {
+    font-size: 1.5em !important;
   }
 }
 /**
@@ -6609,7 +6620,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background: linear-gradient(to bottom, #3d5a80, #023) !important;
+  background: linear-gradient(89.9deg, rgb(32, 32, 35) 10.4%, rgb(101, 101, 131) 37.1%, rgb(101, 101, 131) 64.3%, rgb(32, 32, 35) 90.5%) !important;
 }
 
 * {
@@ -6621,6 +6632,10 @@ body {
 
 ol, ul {
   padding-left: 1.5em;
+}
+
+.nav ul li {
+  letter-spacing: 4px;
 }
 
 .hidden {
@@ -6643,6 +6658,11 @@ body {
   margin: auto;
 }
 
+.main div {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .main p {
   width: 70%;
   margin: 0 auto;
@@ -6657,6 +6677,12 @@ body {
   flex: 0 0 auto;
   width: 70%;
   margin: auto;
+}
+
+.hrStyle {
+  height: 1em;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #333 inset;
 }
 
 /* Header */
@@ -6692,6 +6718,7 @@ body {
 
 .title p {
   font-style: italic;
+  letter-spacing: 4px;
 }
 
 /* Footer */
@@ -6699,7 +6726,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #fff;
-  margin-top: 0.5em;
+  margin-top: 2em;
 }
 
 .footer p {
@@ -6716,7 +6743,7 @@ body {
 
 /* Typografy */
 body {
-  font-family: "Roboto", "Segoe UI", sans-serif;
+  font-family: "Lato", "Roboto", "Segoe UI", sans-serif;
 }
 
 p {
@@ -6725,8 +6752,7 @@ p {
 }
 
 a {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
+  font-family: "Oswald", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 p, td, th, li, dd {
@@ -6743,8 +6769,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 4px;
 }
 
 img {
   max-width: 100%;
+}
+
+.analysisSubLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analysisSubLinks a {
+  color: purple;
+  text-decoration: none;
+  margin: 0.5em 0;
+  font-size: 2em;
 }

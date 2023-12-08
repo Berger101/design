@@ -5,5 +5,10 @@ $font-alternative-light-color: #800080;
 // $background-color: #3d5a80;
 // $background-alternative-color: #e0fbfc;
 $font-color-title: #111;
-$background-dark-theme: linear-gradient(to bottom, #3d5a80, #023) !important;
+// 
+// linear-gradient(89.2deg, rgb(39 29 117) 10.4%, rgb(41 38 181) 37.1%, rgb(34 93 137) 64.3%, rgb(43 112 123) 90.5%) !important
+// radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%) !important
+// linear-gradient(to bottom, #3d5a80, #023)
+$background-dark-theme: linear-gradient(89.9deg, rgb(32 32 35) 10.4%, rgb(101 101 131) 37.1%, rgb(101 101 131) 64.3%, rgb(32 32 35) 90.5%) !important;
+
 $background-light-theme: linear-gradient(89.9deg, rgba(178, 253, 238, 0.96) -8.1%, rgb(207, 244, 254) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgb(254, 219, 243) 78.7%, rgb(254, 207, 210) 109.2%) !important;
