@@ -138,11 +138,15 @@ body {
 
 .footer a {
   color: $font-alternative-color;
+  text-decoration: none;
 }
 
 .footer .social {
   font-size: 2rem;
-  
+}
+
+.social a {
+  text-decoration: none;
 }
 
 /* Typografy */
