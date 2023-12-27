@@ -313,15 +313,15 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #454b1b;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px 10px #454b1b inset;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background-color: #191825;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -329,9 +329,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px 10px #454b1b inset;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background-color: #191825;
 }
 
 pre code {
@@ -6585,7 +6585,7 @@ readers do not read off random characters that represent icons */
 }
 
 .box {
-  border: solid 1px black;
+  box-shadow: 10px 10px 10px 10px #454b1b inset;
 }
 
 .half {
@@ -6597,7 +6597,7 @@ readers do not read off random characters that represent icons */
 }
 
 .box a {
-  color: #000;
+  color: #fafafa;
   text-decoration: none;
   display: grid;
   text-align: center;
@@ -6615,12 +6615,19 @@ readers do not read off random characters that represent icons */
 
 .sidebar a {
   margin: 0.5em 0;
-  color: black;
+  color: #fafafa;
   text-decoration: none;
 }
 
+.analysisSubLinks {
+  color: #4caf50;
+  text-decoration: none;
+  margin: 0.5em 0;
+  font-size: 2em;
+}
+
 body {
-  background: linear-gradient(89.9deg, rgb(32, 32, 35) 10.4%, rgb(101, 101, 131) 37.1%, rgb(101, 101, 131) 64.3%, rgb(32, 32, 35) 90.5%) !important;
+  background-color: #191825;
 }
 
 * {
@@ -6671,18 +6678,13 @@ body {
 .main h1 {
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 0.5em;
 }
 
 .header, .footer {
   flex: 0 0 auto;
   width: 70%;
   margin: auto;
-}
-
-.hrStyle {
-  height: 1em;
-  border: 0;
-  box-shadow: 0 10px 10px -10px #333 inset;
 }
 
 /* Header */
@@ -6692,7 +6694,7 @@ body {
 }
 
 .nav a, .nav-toggle {
-  color: #fff;
+  color: #4caf50;
   font-size: 1.2em;
 }
 
@@ -6713,7 +6715,7 @@ body {
   }
 }
 .title * {
-  color: #111;
+  color: #4caf50;
 }
 
 .title p {
@@ -6725,16 +6727,16 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #454b1b;
   margin-top: 2em;
 }
 
 .footer p {
-  color: #fff;
+  color: #fafafa;
 }
 
 .footer a {
-  color: #fff;
+  color: #fafafa;
   text-decoration: none;
 }
 
@@ -6749,6 +6751,7 @@ body {
 /* Typografy */
 body {
   font-family: "Lato", "Roboto", "Segoe UI", sans-serif;
+  color: #fafafa;
 }
 
 p {
@@ -6758,6 +6761,20 @@ p {
 
 a {
   font-family: "Oswald", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #454b1b;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #454b1b;
+}
+
+hr {
+  height: 1em;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #454b1b inset;
+  width: 70%;
+  margin: auto;
 }
 
 p, td, th, li, dd {
@@ -6775,21 +6792,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4caf50;
 }
 
 img {
   max-width: 100%;
-}
-
-.analysisSubLinks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.analysisSubLinks a {
-  color: purple;
-  text-decoration: none;
-  margin: 0.5em 0;
-  font-size: 2em;
 }

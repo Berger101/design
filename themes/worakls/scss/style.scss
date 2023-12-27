@@ -11,11 +11,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import 'technology';
+@import 'analysis';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
   // background-color: $background-color;
-  background: $background-dark-theme;
+  background-color: $background-dark-theme;
 }
 
 * {
@@ -23,7 +24,6 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
-  // color: $font-color;
 }
 
 ol, ul {
@@ -63,24 +63,18 @@ body {
 .main p {
   width: 70%;
   margin: 0 auto;
-  // margin-bottom: 1em;
 }
 
 .main h1 {
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 0.5em;
 }
 
 .header, .footer {
   flex: 0 0 auto;
   width: 70%;
   margin: auto;
-}
-
-.hrStyle {
-  height: 1em;
-  border: 0;
-  box-shadow: 0 10px 10px -10px #333 inset;
 }
 
 /* Header */
@@ -91,7 +85,7 @@ body {
 }
 
 .nav a, .nav-toggle {
-  color: $font-alternative-color;
+  color: $font-header;
   font-size: 1.2em;
 }
 
@@ -114,7 +108,7 @@ body {
 }
 
 .title * {
-  color: $font-color-title;
+  color: $font-header;
 }
 
 .title p {
@@ -127,17 +121,17 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid $font-alternative-color;
+  border-top: 1px solid $font-border;
   margin-top: 2em;
   // background-image: url("https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e859553fc819702b5aee379_Footer%20Dots%402x.png") !important;
 }
 
 .footer p {
-  color: $font-alternative-color;
+  color: $font-color;
 }
 
 .footer a {
-  color: $font-alternative-color;
+  color: $font-color;
   text-decoration: none;
 }
 
@@ -155,7 +149,7 @@ body {
   // font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   // line-height: 1.4rem;
   font-family: 'Lato', 'Roboto', 'Segoe UI', sans-serif;
-  
+  color: $font-color;
 }
 
 p {
@@ -165,7 +159,20 @@ p {
 
 a {
   font-family: 'Oswald', "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  // font-weight: bold;
+  color: $font-links;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid $font-hover;
+}
+
+hr {
+  height: 1em;
+  border: 0;
+  box-shadow: 0 10px 10px -10px $font-border inset;
+  width: 70%;
+  margin: auto;
 }
 
 p, td, th, li, dd {
@@ -176,7 +183,6 @@ p, td, th, li, dd {
 
 h1 {
   font-size: 2.8em;
-  // margin-bottom: 3.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -184,21 +190,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 4px;
+  text-transform: uppercase;
+  color: $font-header;
 }
 
 img {
   max-width: 100%;
-}
-
-.analysisSubLinks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.analysisSubLinks a {
-  color: purple;
-  text-decoration: none;
-  margin: 0.5em 0;
-  font-size: 2em;
 }
