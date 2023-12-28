@@ -21,6 +21,12 @@ Analysis
   <a href="analysis/02_load" class="analysisSubLinks">Load</a>
   <br>
   <br>
+  <strong>Mitt val: </strong>Jag googlade fram mig tre webbplatser jag tyckte såg bra ut och var väl gjorda och valde därefter vilka hemsidor jag ville analysera.
+
+  <strong>Verktyg: </strong>Jag använde mig av lighthouse.
+  <br>
+  <br>
+  
   <hr>
   <a href="analysis/03_design_principles" class="analysisSubLinks">Design Principles</a>
   <br>
