@@ -11,18 +11,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import 'technology';
-
-body {
-  // background-color: $background-color;
-  //background: linear-gradient(to bottom, #3d5a80, #023) !important;
-}
+@import 'analysis';
+@import 'gallery';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
   padding: 0;
-  // color: $font-color;
 }
 
 ol, ul {
@@ -53,7 +50,6 @@ body {
 .main p {
   width: 70%;
   margin: 0 auto;
-  // margin-bottom: 1em;
 }
 
 .main h1 {
@@ -125,10 +121,7 @@ body {
 /* Typografy */
 
 body {
-  // font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-  // line-height: 1.4rem;
   font-family: 'Roboto', 'Segoe UI', sans-serif;
-  
 }
 
 p {
@@ -149,13 +142,13 @@ p, td, th, li, dd {
 
 h1 {
   font-size: 2.8em;
-  // margin-bottom: 3.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: $font-alternative-light-color;
 }
 
 img {
@@ -165,7 +158,5 @@ img {
 // Light Mode Activation!
 body {
   background: $background-light-theme;
+  color: $font-alternative-light-color !important;
 }
-
-// "style": "sass worakls/scss/style.scss worakls/css/style.css --no-source-map",
-// "style-min": "sass worakls/scss/style.scss worakls/css/style.min.css --no-source-map --style compressed",

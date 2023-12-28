@@ -31,6 +31,20 @@ Analysis
   <a href="analysis/03_design_principles" class="analysisSubLinks">Design Principles</a>
   <br>
   <br>
+  <strong>Mitt val: </strong>Jag googlade fram mig tre webbplatser jag tyckte såg bra ut och var väl gjorda och valde därefter vilka hemsidor jag ville analysera.
+
+  <strong>Bakgrundsmaterial : </strong> Använde mig ej av något speciellt bakgrundsmaterial.
+
+  <strong>Sammanfatta ditt resultat i en analys och skriv generellt om din studie, kom du fram till något speciellt rörande hur webbplatser använder designprinciper?: </strong>Nej.
+
+  <strong>Analysera självständigt: </strong><i>webbplatsens design 4.2: </i>Simpel sida som är lätthanterlig. <i>designprinciperna 4.5: </i> ja de är lika.
+
+  <strong>Uppdateringar: </strong>Nej.
+
+  <strong>Notera uppdateringarna: </strong>Ok, jag har noterat.
+  <br>
+  <br>
+
   <hr>
 
 <br>

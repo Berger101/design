@@ -6822,6 +6822,10 @@ a:hover {
   border-bottom: 1px solid #454b1b;
 }
 
+.logo a:hover {
+  border-bottom: none;
+}
+
 hr {
   height: 1em;
   border: 0;

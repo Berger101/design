@@ -16,7 +16,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
-  // background-color: $background-color;
   background-color: $background-dark-theme;
 }
 
@@ -124,7 +123,6 @@ body {
   justify-content: space-between;
   border-top: 1px solid $font-border;
   margin-top: 2em;
-  // background-image: url("https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e859553fc819702b5aee379_Footer%20Dots%402x.png") !important;
 }
 
 .footer p {
@@ -166,6 +164,10 @@ a {
 
 a:hover {
   border-bottom: 1px solid $font-hover;
+}
+
+.logo a:hover {
+  border-bottom: none;
 }
 
 hr {

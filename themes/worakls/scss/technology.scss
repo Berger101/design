@@ -11,7 +11,6 @@
   margin: auto;
   display: grid;
   gap: 1em 1em;
-  // grid-template-columns: repeat(3, 1fr)
 }
 
 .technologiesH1 {
@@ -20,9 +19,7 @@
 }
 
 .box {
-  // border: solid 1px black;
   box-shadow: 10px 10px 10px 10px $font-border inset;
-  // background-color: random($limit: 1);
 }
 
 .half {
@@ -42,14 +39,12 @@
 
 .singleTech {
   display: grid;
-  // grid-template-columns: repeat(2, 1fr);
   grid-template-columns: 20% 80%;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
-//   left: calc(75%);
 }
 
 .sidebar a {
